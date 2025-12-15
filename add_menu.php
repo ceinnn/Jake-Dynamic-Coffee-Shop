@@ -24,7 +24,7 @@
       </div>
       <div id="rightcolumn">
         <h2>Add Menu</h2>
-        <form action="add_product.php" method="POST">
+        <form action="menu/add_product.php" method="POST">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
 

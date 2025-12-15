@@ -47,7 +47,7 @@
                             </td>
                             <td class='music-td'>{$formattedtime}</td>
                             <td>
-                                <form action='active_genre.php' method='POST'>
+                                <form action='music/active_genre.php' method='POST'>
                                     <input type='hidden' name='id' value='{$row['idmusic']}'/>
                                     <button type='submit' class='activebtn'>Active</button>
                                 </form>

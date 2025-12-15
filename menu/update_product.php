@@ -1,5 +1,5 @@
 <?php
-include "db_conn.php";
+include "../db_conn.php";
 
 $id = $_POST['id'];
 $name = $_POST['name'];
@@ -10,5 +10,5 @@ $stmt = $conn->prepare("UPDATE menu SET name= ?, description= ?, price= ? WHERE 
 $stmt->bind_param("ssdi", $name, $desc, $price, $id);
 $stmt->execute();
 
-header("Location: cms_menu.php");
+header("Location: ../cms_menu.php");
 ?>

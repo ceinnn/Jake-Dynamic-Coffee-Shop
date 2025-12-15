@@ -47,7 +47,7 @@
                             </td>
                             <td><strong>$ {$row['price']}</strong></td>
                             <td>
-                                <form action='active_product.php' method='POST'>
+                                <form action='menu/active_product.php' method='POST'>
                                     <input type='hidden' name='id' value='{$row['idmenu']}'/>
                                     <button type='submit' class='activebtn'>Active</button>
                                 </form>

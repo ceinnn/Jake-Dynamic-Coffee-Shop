@@ -50,7 +50,7 @@
                                     <input type='hidden' name='id' value='{$row['idmusic']}'/>
                                     <button type='submit' class='editbtn'>Edit</button>
                                 </form>
-                                <form action='archive_genre.php' method='POST'>
+                                <form action='music/archive_genre.php' method='POST'>
                                     <input type='hidden' name='id' value='{$row['idmusic']}'/>
                                     <button type='submit' class='archivebtn'>Archive</button>
                                 </form>

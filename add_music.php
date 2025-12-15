@@ -24,7 +24,7 @@
       </div>
       <div id="rightcolumn">
         <h2>Add Music</h2>
-        <form action="add_genre.php" method="POST">
+        <form action="music/add_genre.php" method="POST">
             <input type='hidden' name='id'>
 
             <label for='genre'>Genre:</label>

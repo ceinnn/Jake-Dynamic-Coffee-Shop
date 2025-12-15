@@ -23,7 +23,7 @@
             $result = $conn->query("SELECT * FROM menu WHERE idmenu= $id ");
             while($row = $result->fetch_assoc()){
                 echo "
-                    <form action='update_product.php' method='POST'>
+                    <form action='menu/update_product.php' method='POST'>
                         <input type='hidden' name='id' value='{$row['idmenu']}'>
 
                         <label for='name'>Name:</label>

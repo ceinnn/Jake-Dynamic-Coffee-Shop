@@ -23,7 +23,7 @@
             $result = $conn->query("SELECT * FROM music WHERE idmusic= $id ");
             while($row = $result->fetch_assoc()){
                 echo "
-                    <form action='update_music.php' method='POST'>
+                    <form action='music/update_music.php' method='POST'>
                         <input type='hidden' name='id' value='{$row['idmusic']}'>
 
                         <label for='genre'>Genre:</label>
